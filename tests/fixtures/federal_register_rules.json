@@ -1,0 +1,91 @@
+{
+  "description": "Documents matching 'artificial intelligence' and of type Rule",
+  "count": 322,
+  "total_pages": 50,
+  "results": [
+    {
+      "title": "Project-Level Predecisional Administrative Review Process",
+      "type": "Rule",
+      "document_number": "2026-20890",
+      "publication_date": "2026-10-13",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF AGRICULTURE",
+          "name": "Agriculture Department",
+          "id": 12,
+          "url": "https://www.federalregister.gov/agencies/agriculture-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/12",
+          "parent_id": null,
+          "slug": "agriculture-department"
+        },
+        {
+          "raw_name": "Forest Service",
+          "name": "Forest Service",
+          "id": 209,
+          "url": "https://www.federalregister.gov/agencies/forest-service",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/209",
+          "parent_id": 12,
+          "slug": "forest-service"
+        }
+      ],
+      "abstract": "The U.S. Department of Agriculture is issuing a final rule amending its Project-Level Predecisional Administrative Review Process regulations. These regulations establish the process by which the public may file objections seeking administrative review of proposed projects and activities implementing land management plans on national forests and grasslands. The Department is amending these regulations to consolidate and streamline processes, increase efficiency, and better align with the Agency's statutory obligations and recent rescissions and revisions to National Environmental Policy Act regulations.",
+      "html_url": "https://www.federalregister.gov/documents/2026/10/13/2026-20890/project-level-predecisional-administrative-review-process"
+    },
+    {
+      "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
+      "type": "Rule",
+      "document_number": "2026-20281",
+      "publication_date": "2026-10-02",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+          "name": "Health and Human Services Department",
+          "id": 221,
+          "url": "https://www.federalregister.gov/agencies/health-and-human-services-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/221",
+          "parent_id": null,
+          "slug": "health-and-human-services-department"
+        },
+        {
+          "raw_name": "Centers for Medicare & Medicaid Services",
+          "name": "Centers for Medicare & Medicaid Services",
+          "id": 45,
+          "url": "https://www.federalregister.gov/agencies/centers-for-medicare-medicaid-services",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/45",
+          "parent_id": 221,
+          "slug": "centers-for-medicare-medicaid-services"
+        }
+      ],
+      "abstract": "This final rule implements the Global Benchmark for Efficient Drug Pricing Model (GLOBE Model), a new mandatory Medicare payment model under section 1115A of the Social Security Act. The GLOBE Model will test whether a payment model that uses an alternative method for calculating Medicare Part B drug inflation rebate amounts for certain separately payable Medicare Part B drugs and biological products reduces costs for Original Medicare (OM) beneficiaries and the Medicare program while preserving quality of care. The term OM has the same meaning as Medicare fee-for-service and the traditional Medicare program.",
+      "html_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model"
+    },
+    {
+      "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+      "type": "Rule",
+      "document_number": "2026-19964",
+      "publication_date": "2026-09-30",
+      "agencies": [
+        {
+          "raw_name": "DEPARTMENT OF TRANSPORTATION",
+          "name": "Transportation Department",
+          "id": 492,
+          "url": "https://www.federalregister.gov/agencies/transportation-department",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+          "parent_id": null,
+          "slug": "transportation-department"
+        },
+        {
+          "raw_name": "National Highway Traffic Safety Administration",
+          "name": "National Highway Traffic Safety Administration",
+          "id": 345,
+          "url": "https://www.federalregister.gov/agencies/national-highway-traffic-safety-administration",
+          "json_url": "https://www.federalregister.gov/api/v1/agencies/345",
+          "parent_id": 492,
+          "slug": "national-highway-traffic-safety-administration"
+        }
+      ],
+      "abstract": "NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered the consistent improvements in the fuel economy performance of manufacturer fleets, as Congress intended. This recalibration finalizes amendments to fuel economy standards for light-duty vehicles for model years 2022- 2026 and MYs 2027-2031. This final rule also finalizes amendments to compliance aspects of the program, including to vehicle classification and other compliance pathways.",
+      "html_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger"
+    }
+  ]
+}

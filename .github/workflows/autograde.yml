@@ -1,0 +1,29 @@
+name: Autograde
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the image
+        run: docker build -t public-records .
+      - name: Run it and call /health
+        run: |
+          docker run -d --name app -p 8000:8000 -e PORT=8000 public-records
+          for i in $(seq 1 20); do curl -fsS http://localhost:8000/health && exit 0; sleep 1; done
+          docker logs app; exit 1
+      - name: The container does not run as root
+        run: test "$(docker run --rm public-records whoami)" != "root"

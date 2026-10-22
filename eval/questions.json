@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "question": "Search the Federal Register for documents about drones.",
+    "expected_tool": "search_federal_register",
+    "chosen_tool": "TODO"
+  },
+  {
+    "id": 2,
+    "type": "indirect",
+    "question": "Find recent federal rules about artificial intelligence.",
+    "expected_tool": "search_federal_register",
+    "chosen_tool": "TODO"
+  },
+  {
+    "id": 3,
+    "type": "off_topic",
+    "question": "Write a four-line poem about the fall.",
+    "expected_tool": null,
+    "chosen_tool": "TODO"
+  }
+]
